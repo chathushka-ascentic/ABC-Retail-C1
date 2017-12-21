@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Order Date:  "/>
+
+        <TextView
+            android:id="@+id/datee"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="12/18/2017"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header2"
+        android:layout_below="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="Order Total: ($) "/>
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="450.00"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header3"
+        android:layout_below="@+id/header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="No of Items:  "/>
+
+        <TextView
+            android:id="@+id/nof"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="3"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/header4"
+        android:layout_below="@+id/header3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:text="Payment Method: "/>
+
+        <RadioGroup
+            android:id="@+id/payby"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_weight="0.5">
+
+            <RadioButton
+                android:id="@+id/rcash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:tag="1"
+                android:checked="true"
+                android:text="Cash"/>
+
+            <RadioButton
+                android:id="@+id/rcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:tag="2"
+                android:text="Card"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/checkOut"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textAllCaps="false"
+            android:text="Checkout"/>
+</RelativeLayout>
+

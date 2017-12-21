@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#C5CAE9"
+    android:foreground="?attr/selectableItemBackground"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/branchName"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colombo-3"
+            android:paddingBottom="2dp"
+            android:textColor="@color/black"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/branchName"
+            android:paddingBottom="2dp"
+            android:textColor="@color/gray"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="No. 20 B, Nugegoda"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="13sp" />
+
+
+        <ImageButton
+            android:id="@+id/location"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/address"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/loc"
+            android:paddingBottom="2dp"
+            android:scaleType="center" />
+
+
+        <ImageButton
+            android:id="@+id/phone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/address"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/cellphone"
+            android:paddingBottom="2dp"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/phoneText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:paddingBottom="2dp"
+            android:layout_toLeftOf="@id/phone"
+            android:layout_alignBottom="@id/phone"
+            android:textColor="@color/gray"
+            android:gravity="bottom"
+            android:text="0771313927"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

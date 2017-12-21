@@ -1,0 +1,14 @@
+﻿body{font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}
+h4{ font-weight:lighter; margin:5px 0 }
+
+input{ position:relative; border: thin #ddd solid; border-radius:5px; padding:3px 10px; color:#6c6c6c}
+.button{ background-color:cornflowerblue; border:none; margin-top:10px; color:#fff; padding:5px 15px; float:right; transition:ease 0.1s; }
+.button:hover{ background-color: #fff; border: thin cornflowerblue solid; color:cornflowerblue;}
+
+body .wrapper {height:500px;width:auto; background-position:center; background-size:cover; background-repeat:no-repeat; margin-top:10%; position:relative;}
+
+body .account { :left; margin: auto; width:500px; height:500px; margin-top:5%; border: thin #ddd solid;}
+body .account .logo { position:relative; width:250px; height:125px;  background-repeat:no-repeat;}
+body .account .accfrm { position:relative;  max-width:500px; height:500px; margin-top:5%;}
+body .account .accfrm table>tbody>tr>td{ border:none;  font-size:11pt; text-align:left;}
+

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/rel1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/input_email"
+            android:layout_below="@+id/imageView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="@string/email"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/input_password"
+            android:layout_below="@+id/input_mobile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/edit_text_border"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:hint="@string/password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_login"
+                android:padding="8dp"
+                android:textAllCaps="false"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textStyle="normal"/>
+            <ProgressBar
+                android:id="@+id/progressBarSpinner"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                style="?android:attr/progressBarStyleLarge"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+
+            <Button
+                android:id="@+id/btn_create_acc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_signup"
+                android:textAllCaps="false"
+                android:padding="8dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textStyle="normal"/>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/link_forgotPwd"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_forgot_pwd"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/version"
+            android:layout_height="wrap_content"
+            android:text="1.0.0 V"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">ABC Fashions</string>
+
+    <string name="url">http://192.168.43.221/abc-fashions/services/</string>
+    <string name="google_API">AIzaSyAgLZVQmUQmBLc00CSuCeTjceTfhoTsIk0</string>
+
+
+    <!-- Login View -->
+    <string name="lbl_forgot_pwd">Forgot Password?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_signup">Create an Account</string>
+    <string name="emailValidation">Invalid email address</string>
+    <string name="passwordValidation">The password is incorrect. Should be between 4-10 characters</string>
+    <string name="authenticationFailed">Authentication failed, please create an account.</string>
+
+
+    <!-- Validation -->
+    <string name="internetCheckMsg">Service error, check your internet settings</string>
+
+    <!-- Menu -->
+    <string name="order">Shop</string>
+    <string name="orderHis">Purchases</string>
+    <string name="offers">Offers</string>
+    <string name="storelocator">Store Locator</string>
+    <string name="mypro">My Profile</string>
+    <string name="logout">Logout</string>
+    <string name="openD">Open Drawer</string>
+    <string name="closeD">Close Drawer</string>
+
+
+    <!-- User Registration view -->
+    <string name="name">Full Name</string>
+    <string name="re_enter_pwd">Re-Enter Password</string>
+    <string name="btn_signup">Signup</string>
+    <string name="nameValidation">Enter full name</string>
+    <string name="passwordMismatch"> Mismatched password</string>
+    <string name="accountExsist">You have already created an account</string>
+    <string name="registrationSuccess">Registration successful</string>
+
+    <!--user Profile Update View-->
+    <string name="address">Address</string>
+    <string name="contact1">Mobile No</string>
+    <string name="contact2">Land No</string>
+    <string name="updating">Updating...</string>
+    <string name="editProfile">Edit</string>
+    <string name="saveProfile">Save</string>
+    <string name="invalidmob">Invalid mobile numbers</string>
+    <string name="updateSuccess">Successfully updated</string>
+    <string name="addressValidation">Enter address</string>
+
+    <!--Run time-->
+    <string name="phonePermission">You need to grant access to manage calls and read phone state</string>
+    <string name="locationPermission">To continue you need to grant access to location</string>
+    <string name="permissionDenied">Permission Denied.Go to settings to allow</string>
+
+    <!--Order-->
+    <string name="cart">My Cart</string>
+    <string name="checkOut">CheckOut</string>
+    <string name="thankyou">Thank you for shopping with us</string>
+
+
+</resources>
+

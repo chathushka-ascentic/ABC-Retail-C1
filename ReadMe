@@ -1,0 +1,10 @@
+# ABC-Retail-C1
+  
+<What is included?>
+
+ 1.Web application & web portal are written in PHP. Put www folder inside wamp and import the database through phpmyadmin.  
+ 2.Android application - Change the app URL to current IPv4 address of your machine and make sure that your mobile and machine are 
+ connected to the same network. 
+ 3.QR codes in the attached folder can be used to scan and retrieve products.
+ 
+ -Aparna Prasad-

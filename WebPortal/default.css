@@ -1,0 +1,40 @@
+﻿body{font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}
+h4{ font-weight:lighter; margin:5px 0 }
+
+input{ position:relative; border: thin #ddd solid; border-radius:5px; padding:3px 10px; color:#6c6c6c}
+.button{ background-color:cornflowerblue; border:none; margin-top:10px; color:#fff; padding:5px 15px; float:right; transition:ease 0.1s; }
+.button:hover{ background-color: #fff; border: thin cornflowerblue solid; color:cornflowerblue;}
+
+body .wrapper {height:350px;width:auto; background-position:center; background-size:cover; background-repeat:no-repeat; margin-top:10%; position:relative;}
+
+body .login {float:left; width:30%; height:250px; margin-left:15%; background-repeat:no-repeat; margin-top:3%;}
+body .login .logo { position:relative; width:56%; height:125px;  background-repeat:no-repeat; position:relative;}
+body .login .logfrm { position:relative;  width:400px; height:250px; }
+body .login .logfrm table>tbody>tr>td{ border:none;  font-size:11pt; text-align:left; }
+
+body .line {float:left; width:1px; height:425px; margin-left:2%; background:#CCC}
+
+body .account { float:left;  width:25%; height:250px; margin-left:4%; margin-top:5%; border: thin #ddd solid;}
+body .account .accfrm { position:relative;  max-width:600px; height:250px; margin-top:5%;}
+body .account .accfrm table>tbody>tr>td{ border:none;  font-size:11pt; text-align:left;}
+
+
+#prof{position:relative; margin:0; height:auto }
+#prof .header{ position:relative; height:100px; background-color:#f0f0f0; border-bottom:thin #ddd solid;padding:0 150px}
+#prof .header .logo { position:relative; top:-25px;display:inline-block ; width:250px; height:125px; background-repeat:no-repeat; background-position:center; background-size:cover; }
+#prof .header .nm { position:relative; width:350px; display:inline-block; float:right; top:15px }
+
+.orderH {table-layout: fixed;width: 100%;white-space: nowrap; margin-top:5%}
+.orderH th {white-space: nowrap;overflow: hidden;text-overflow: ellipsis; background:#CCC}
+.orderH td {white-space: nowrap;overflow: hidden;text-overflow: ellipsis; background-color:#f0f0f0}
+
+.orderD {table-layout: fixed;width: 100%;white-space: nowrap; margin-top:5%}
+.orderD th {white-space: nowrap;overflow: hidden;text-overflow: ellipsis; background:#CCC}
+
+.od1 {width: 40%;}
+.od2 {width: 10%;}
+.od3 {width: 10%;}
+.od4 {width: 20%;}
+
+body .footer { position:relative; height:40px; background-color:#f0f0f0;margin-top:15% }
+body .footer h4 { position:relative; padding-top:10px; text-align:center; color:#aaa}
